@@ -11,4 +11,25 @@
     height: 580px;
     width: 280px;
     background-color: #33455B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+svg {
+    height: 80px;
+    width: 80px;
+}
+
+circle {
+    cx: 40px;
+    cy: 40px;
+    r: 30px;
+    fill: white;
 }
