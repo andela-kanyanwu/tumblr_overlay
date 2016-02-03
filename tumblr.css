@@ -33,3 +33,33 @@ circle {
     r: 30px;
     fill: white;
 }
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    width: 300px;
+}
+
+.home img {
+    width: 300px;
+}
+
+.home button {
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.home button:hover {
+    background-color: #34465D;
+    color: white;
+}
+
+.home h4 {
+    align-self: center;
+}
